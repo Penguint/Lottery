@@ -8,7 +8,7 @@ while (flag)
     var data = [];
     for (var i=0;i < range;i++)
     {
-        var e={id:i,value:Math.random()};
+        var e={id:i+1,value:Math.random()};
         data.push(e);
     }
 
